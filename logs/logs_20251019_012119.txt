@@ -1,0 +1,28 @@
+=== LOGS DE APLICACIÓN ===
+
+[2025-10-19 01:21:19] [INFO] [INIT] - Inicializando clase DatabaseMongo con URI: mongodb://localhost:27017/
+[2025-10-19 01:21:19] [INFO] [CONNECT] - Intentando conectar con MongoDB...
+[2025-10-19 01:21:19] [INFO] [CONNECT] - Conexión exitosa con MongoDB.
+[2025-10-19 01:21:19] [INFO] [INIT] - Clase Extracciones inicializada correctamente.
+[2025-10-19 01:21:19] [INFO] [EXTRACT] - Iniciando extracción para bi_mx.listings...
+[2025-10-19 01:21:19] [INFO] [GET_ALL] - Iniciando extracción de datos desde bi_mx.listings...
+[2025-10-19 01:21:20] [INFO] [GET_ALL] - Se extrajeron 26401 documentos de bi_mx.listings correctamente.
+[2025-10-19 01:21:20] [INFO] [EXTRACT] - Datos obtenidos desde MongoDB: 26401 registros recuperados.
+[2025-10-19 01:21:21] [INFO] [TRANSFORM] - Conversión a DataFrame completada (26401 filas, 77 columnas).
+[2025-10-19 01:21:23] [INFO] [LOAD] - CSV generado exitosamente en: c:\Users\USUARIO\Desktop\Trabajobi\etl_airbnb\script\..\data\raw\listings.csv
+[2025-10-19 01:21:23] [INFO] [LOAD] - Total de registros exportados: 26401
+[2025-10-19 01:21:23] [INFO] [EXTRACT] - Iniciando extracción de bi_mx.calendar entre 2025-06-26 y 2025-06-26...
+[2025-10-19 01:21:23] [INFO] [GET_RANGE] - Extrayendo datos desde bi_mx.calendar entre 2025-06-26 y 2025-06-26...
+[2025-10-19 01:21:38] [INFO] [GET_RANGE] - Documentos recuperados: 4434
+[2025-10-19 01:21:38] [INFO] [EXTRACT] - 4434 registros recuperados desde MongoDB.
+[2025-10-19 01:21:38] [INFO] [TRANSFORM] - DataFrame generado (4434 filas x 6 columnas).
+[2025-10-19 01:21:38] [INFO] [LOAD] - CSV generado exitosamente: c:\Users\USUARIO\Desktop\Trabajobi\etl_airbnb\script\..\data\raw\calendar.csv
+[2025-10-19 01:21:38] [INFO] [LOAD] - Total de registros exportados: 4434
+[2025-10-19 01:21:39] [INFO] [EXTRACT] - Iniciando extracción para bi_mx.reviews...
+[2025-10-19 01:21:39] [INFO] [GET_ALL] - Iniciando extracción de datos desde bi_mx.reviews...
+[2025-10-19 01:22:21] [INFO] [GET_ALL] - Se extrajeron 1388226 documentos de bi_mx.reviews correctamente.
+[2025-10-19 01:22:21] [INFO] [EXTRACT] - Datos obtenidos desde MongoDB: 1388226 registros recuperados.
+[2025-10-19 01:22:30] [INFO] [TRANSFORM] - Conversión a DataFrame completada (1388226 filas, 7 columnas).
+[2025-10-19 01:22:48] [INFO] [LOAD] - CSV generado exitosamente en: c:\Users\USUARIO\Desktop\Trabajobi\etl_airbnb\script\..\data\raw\reviews.csv
+[2025-10-19 01:22:48] [INFO] [LOAD] - Total de registros exportados: 1388226
+[2025-10-19 01:23:00] [INFO] [CLOSE] - Conexión con MongoDB cerrada correctamente.

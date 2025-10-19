@@ -1,0 +1,9 @@
+=== LOGS DE APLICACIÓN ===
+
+[2025-10-19 01:24:06] [INFO] [INIT] - Clase Cargas inicializada correctamente.
+[2025-10-19 01:24:06] [INFO] [LOAD] - Iniciando carga del archivo listings.xlsx en carpeta silver...
+[2025-10-19 01:24:47] [INFO] [LOAD] - Archivo listings.xlsx guardado exitosamente en c:\Users\USUARIO\Desktop\Trabajobi\etl_airbnb\data\silver\listings.xlsx.
+[2025-10-19 01:24:47] [INFO] [LOAD] - Iniciando carga del archivo calendar.xlsx en carpeta silver...
+[2025-10-19 01:24:48] [INFO] [LOAD] - Archivo calendar.xlsx guardado exitosamente en c:\Users\USUARIO\Desktop\Trabajobi\etl_airbnb\data\silver\calendar.xlsx.
+[2025-10-19 01:24:48] [INFO] [LOAD] - Iniciando carga del archivo reviews.xlsx en carpeta silver...
+[2025-10-19 01:24:49] [INFO] [LOAD] - Archivo reviews.xlsx guardado exitosamente en c:\Users\USUARIO\Desktop\Trabajobi\etl_airbnb\data\silver\reviews.xlsx.

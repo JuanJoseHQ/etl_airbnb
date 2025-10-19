@@ -86,6 +86,9 @@ class Extracciones:
             # Definir nombre y ruta del archivo CSV
             csv_filename = f"{collection_name}.csv"
             csv_path = os.path.join(csv_dir, csv_filename)
+            
+            # Guardar el DataFrame como CSV
+            df.to_csv(csv_path, index=False)
 
             # Registrar éxito del proceso (no guarda el CSV en este método)
             self.log.info(f"[LOAD] - CSV generado exitosamente en: {csv_path}")

@@ -1,9 +1,0 @@
-=== LOGS DE APLICACIÓN ===
-
-[2025-10-18 22:58:05] [INFO] [INIT] - Clase Cargas inicializada correctamente.
-[2025-10-18 22:58:05] [INFO] [LOAD] - Iniciando carga del archivo listings.xlsx en carpeta silver...
-[2025-10-18 22:58:31] [INFO] [LOAD] - Archivo listings.xlsx guardado exitosamente en c:\Users\USUARIO\Desktop\2025-2\Semestre_2025-2\Inteligencia de Negocios\Entrega 2\data\silver\listings.xlsx.
-[2025-10-18 22:58:31] [INFO] [LOAD] - Iniciando carga del archivo calendar.xlsx en carpeta silver...
-[2025-10-18 22:58:31] [INFO] [LOAD] - Archivo calendar.xlsx guardado exitosamente en c:\Users\USUARIO\Desktop\2025-2\Semestre_2025-2\Inteligencia de Negocios\Entrega 2\data\silver\calendar.xlsx.
-[2025-10-18 22:58:31] [INFO] [LOAD] - Iniciando carga del archivo reviews.xlsx en carpeta silver...
-[2025-10-18 22:58:32] [INFO] [LOAD] - Archivo reviews.xlsx guardado exitosamente en c:\Users\USUARIO\Desktop\2025-2\Semestre_2025-2\Inteligencia de Negocios\Entrega 2\data\silver\reviews.xlsx.
