@@ -1,0 +1,11 @@
+=== LOGS DE APLICACIÓN ===
+
+[2025-10-19 00:47:56] [INFO] [INIT] - Clase Extracciones inicializada correctamente.
+[2025-10-19 00:47:56] [INFO] [EXTRACT] - Iniciando extracción para bi_mx.listings...
+[2025-10-19 00:47:59] [INFO] [EXTRACT] - Datos obtenidos desde MongoDB: 0 registros recuperados.
+[2025-10-19 00:47:59] [INFO] [EXTRACT] - La colección 'bi_mx.listings' está vacía. No se generará CSV.
+[2025-10-19 00:47:59] [INFO] [EXTRACT] - Iniciando extracción de bi_mx.calendar entre 2025-06-26 y 2025-06-26...
+[2025-10-19 00:48:02] [INFO] [EXTRACT] - No se encontraron datos en 'bi_mx.calendar' para el rango indicado.
+[2025-10-19 00:48:02] [INFO] [EXTRACT] - Iniciando extracción para bi_mx.reviews...
+[2025-10-19 00:48:05] [INFO] [EXTRACT] - Datos obtenidos desde MongoDB: 0 registros recuperados.
+[2025-10-19 00:48:05] [INFO] [EXTRACT] - La colección 'bi_mx.reviews' está vacía. No se generará CSV.

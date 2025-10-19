@@ -1,0 +1,32 @@
+=== LOGS DE APLICACIÓN ===
+
+[2025-10-18 22:54:21] [INFO] [INIT] - Clase Transformaciones inicializada correctamente.
+[2025-10-18 22:54:22] [INFO] [START] - Iniciando proceso de transformaciones para 'listings'.
+[2025-10-18 22:54:22] [INFO] [INFO] - Copia inicial creada. Total registros: 26401.
+[2025-10-18 22:54:23] [INFO] [CLEAN] - Duplicados eliminados: 0. Total registros después de limpieza: 26401.
+[2025-10-18 22:54:23] [INFO] [CLEAN] - Columna 'host_acceptance_rate' transformada: se eliminaron '%' y se convirtió a numérico. Valores ejemplo: [91.0, 100.0, 47.0, 85.0, 93.0]
+[2025-10-18 22:54:23] [INFO] [CLEAN] - Columna 'host_response_rate' transformada: se eliminaron '%' y se convirtió a numérico. Valores ejemplo: [100.0, 100.0, 100.0, 100.0, 93.0]
+[2025-10-18 22:54:23] [INFO] [TRANSFORM] - 'host_response_time' categorizado en 'host_response_category'. Se simplificó a categorías Fast, Moderate, Slow. Valores únicos finales: [nan, 'Fast', 'Slow', 'Moderate']
+[2025-10-18 22:54:26] [INFO] [TRANSFORM] - 'host_verifications' convertida en columnas binarias. Columnas creadas: ['verif_email', 'verif_phone', 'verif_work_email']. Primeros registros transformados: 
+   verif_email  verif_phone  verif_work_email
+0            1            1                 1
+1            1            1                 1
+2            1            1                 0
+[2025-10-18 22:54:27] [INFO] [CLEAN] - Columna 'price' limpiada: símbolos eliminados y convertida a numérico. Valores ejemplo: [379900.0, 1800000.0, 58500.0, 169600.0, 100400.0]
+[2025-10-18 22:54:27] [INFO] [TRANSFORM] - Columna 'neighbourhood' normalizada: minúsculas, sin acentos y sin espacios extra. Valores ejemplo: ['mexico city, d.f., mexico' 'mexico city, df, mexico'
+ 'mexico city, federal district, mexico'
+ 'colonia juarez, ciudad de mexico, mexico' 'mexico city, mexico']
+[2025-10-18 22:54:27] [INFO] [TRANSFORM] - 'bathrooms' redondeada hacia arriba y convertida a Int64. Valores ejemplo: [1, 6, 1, 1, 1]
+[2025-10-18 22:54:27] [INFO] [CLEAN] - Columnas eliminadas: ['host_neighbourhood', 'neighborhood_overview', 'neighbourhood']. Columnas restantes: ['_id', 'id', 'listing_url', 'scrape_id', 'last_scraped', 'source', 'name', 'description', 'picture_url', 'host_id', 'host_url', 'host_name', 'host_since', 'host_location', 'host_about', 'host_response_rate', 'host_acceptance_rate', 'host_is_superhost', 'host_thumbnail_url', 'host_picture_url', 'host_listings_count', 'host_total_listings_count', 'host_has_profile_pic', 'host_identity_verified', 'neighbourhood_cleansed', 'latitude', 'longitude', 'property_type', 'room_type', 'accommodates', 'bathrooms', 'bathrooms_text', 'bedrooms', 'beds', 'amenities', 'price', 'minimum_nights', 'maximum_nights', 'minimum_minimum_nights', 'maximum_minimum_nights', 'minimum_maximum_nights', 'maximum_maximum_nights', 'minimum_nights_avg_ntm', 'maximum_nights_avg_ntm', 'has_availability', 'availability_30', 'availability_60', 'availability_90', 'availability_365', 'calendar_last_scraped', 'number_of_reviews', 'number_of_reviews_ltm', 'number_of_reviews_l30d', 'availability_eoy', 'number_of_reviews_ly', 'estimated_occupancy_l365d', 'estimated_revenue_l365d', 'instant_bookable', 'calculated_host_listings_count', 'calculated_host_listings_count_entire_homes', 'calculated_host_listings_count_private_rooms', 'calculated_host_listings_count_shared_rooms', 'first_review', 'last_review', 'review_scores_rating', 'review_scores_accuracy', 'review_scores_cleanliness', 'review_scores_checkin', 'review_scores_communication', 'review_scores_location', 'review_scores_value', 'reviews_per_month', 'host_response_category', 'verif_email', 'verif_phone', 'verif_work_email']
+[2025-10-18 22:54:27] [INFO] [OUTLIERS] - Eliminación de valores extremos en 'bathrooms', 'bedrooms', 'beds' y 'price'. Registros antes: 26401, después: 23074, eliminados: 3327.
+[2025-10-18 22:54:27] [INFO] [END] - Transformaciones completadas. Total final de registros: 23074. Total columnas: 76.
+[2025-10-18 22:54:27] [INFO] [START] - Iniciando proceso de transformaciones para 'calendar'.
+[2025-10-18 22:54:27] [INFO] [INFO] - Copia inicial creada. Total registros: 4434.
+[2025-10-18 22:54:27] [INFO] [TRANSFORM] - Columna 'date' desagregada correctamente en componentes 'year', 'month' y 'day'Ejemplo de valores: [{'date': Timestamp('2025-06-26 00:00:00'), 'year': 2025, 'month': 6, 'day': 26}, {'date': Timestamp('2025-06-26 00:00:00'), 'year': 2025, 'month': 6, 'day': 26}, {'date': Timestamp('2025-06-26 00:00:00'), 'year': 2025, 'month': 6, 'day': 26}]
+[2025-10-18 22:54:27] [INFO] [CLEAN] - Columnas 'minimum_nights' y 'maximum_nights' eliminadas por irrelevancia.
+[2025-10-18 22:54:27] [INFO] [END] - Transformaciones completadas. Total final de registros: 4434.Total columnas: 7.
+[2025-10-18 22:54:34] [INFO] [START] - Iniciando proceso de transformaciones para 'reviews'.
+[2025-10-18 22:54:34] [INFO] [CLEAN] - Nulos en 'comments' rellenados con cadena vacía. Total registros: 3879.
+[2025-10-18 22:54:38] [INFO] [TRANSFORM] - Análisis de Sentimiento (VADER) completado.
+[2025-10-18 22:54:38] [INFO] [TRANSFORM] - Fechas desagregadas en 'review_year' y 'review_month'.
+[2025-10-18 22:54:38] [INFO] [END] - Transformaciones completadas. Total final de registros: 3879. Total columnas: 8.

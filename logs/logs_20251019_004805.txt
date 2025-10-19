@@ -1,0 +1,3 @@
+=== LOGS DE APLICACIÓN ===
+
+[2025-10-19 00:48:05] [INFO] [INIT] - Clase Transformaciones inicializada correctamente.

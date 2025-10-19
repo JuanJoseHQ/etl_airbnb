@@ -1,0 +1,23 @@
+=== LOGS DE APLICACIÓN ===
+
+[2025-10-18 22:58:33] [INFO] |SQL AZURE| - Conexión exitosa a la base de datos 'casacambio' en el servidor 'casacambio.database.windows.net'.
+[2025-10-18 22:58:33] [INFO] |SQL AZURE| - La tabla 'dbo.silver_listings' no existe. Se procederá a crearla.
+[2025-10-18 22:58:33] [INFO] |SQL AZURE| - Usando esquema genérico para 'silver_listings'.
+[2025-10-18 22:58:33] [INFO] |SQL AZURE| - Tabla 'dbo.silver_listings' creada correctamente con 76 columnas.
+[2025-10-18 22:58:33] [INFO] |SQL AZURE| - Insertando 23074 registros en dbo.silver_listings...
+[2025-10-18 22:59:38] [INFO] |SQL AZURE| - Tabla 'dbo.silver_listings' sobrescrita correctamente con 23074 registros.
+[2025-10-18 22:59:38] [INFO] |SQL AZURE| - Conexión cerrada correctamente.
+[2025-10-18 22:59:38] [INFO] |SQL AZURE| - Conexión exitosa a la base de datos 'casacambio' en el servidor 'casacambio.database.windows.net'.
+[2025-10-18 22:59:38] [INFO] |SQL AZURE| - La tabla 'dbo.silver_calendar' no existe. Se procederá a crearla.
+[2025-10-18 22:59:38] [INFO] |SQL AZURE| - Usando esquema genérico para 'silver_calendar'.
+[2025-10-18 22:59:38] [INFO] |SQL AZURE| - Tabla 'dbo.silver_calendar' creada correctamente con 7 columnas.
+[2025-10-18 22:59:38] [INFO] |SQL AZURE| - Insertando 4434 registros en dbo.silver_calendar...
+[2025-10-18 22:59:39] [INFO] |SQL AZURE| - Tabla 'dbo.silver_calendar' sobrescrita correctamente con 4434 registros.
+[2025-10-18 22:59:39] [INFO] |SQL AZURE| - Conexión cerrada correctamente.
+[2025-10-18 22:59:39] [INFO] |SQL AZURE| - Conexión exitosa a la base de datos 'casacambio' en el servidor 'casacambio.database.windows.net'.
+[2025-10-18 22:59:40] [INFO] |SQL AZURE| - La tabla 'dbo.silver_reviews' no existe. Se procederá a crearla.
+[2025-10-18 22:59:40] [INFO] |SQL AZURE| - Usando esquema genérico para 'silver_reviews'.
+[2025-10-18 22:59:40] [INFO] |SQL AZURE| - Tabla 'dbo.silver_reviews' creada correctamente con 8 columnas.
+[2025-10-18 22:59:40] [INFO] |SQL AZURE| - Insertando 3879 registros en dbo.silver_reviews...
+[2025-10-18 22:59:41] [INFO] |SQL AZURE| - Tabla 'dbo.silver_reviews' sobrescrita correctamente con 3879 registros.
+[2025-10-18 22:59:41] [INFO] |SQL AZURE| - Conexión cerrada correctamente.
