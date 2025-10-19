@@ -65,11 +65,12 @@ PASSWORD=""
 ```
 ### 6.Ejecutar ETL
 Crear un archivo .env en la carpeta de scrips con las siguientes variables:
-Antes de ejecutarlo debe intanciar su mongo propia y crear 3 colecciones con el nombre de:
+Antes de ejecutarlo debe intanciar su mongo propia y crear un schema llamado bi_mx y 3 colecciones con el nombre de:
 - listings: https://data.insideairbnb.com/mexico/df/mexico-city/2025-06-25/data/listings.csv.gz
 - calendar: https://data.insideairbnb.com/mexico/df/mexico-city/2025-06-25/data/calendar.csv.gz
 - reviews: https://data.insideairbnb.com/mexico/df/mexico-city/2025-06-25/data/reviews.csv.gz
 ```bash
+cd etl_airbnb/script
 python main.py
 ```
 
