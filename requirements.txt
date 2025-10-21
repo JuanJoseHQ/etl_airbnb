@@ -7,5 +7,5 @@ seaborn
 nltk
 textblob
 langdetect
-dotenv
-openyxl
+python-dotenv
+openpyxl
