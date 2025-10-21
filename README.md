@@ -70,7 +70,7 @@ Antes de ejecutarlo debe intanciar su mongo propia y crear un schema llamado bi_
 - calendar: https://data.insideairbnb.com/mexico/df/mexico-city/2025-06-25/data/calendar.csv.gz
 - reviews: https://data.insideairbnb.com/mexico/df/mexico-city/2025-06-25/data/reviews.csv.gz
 ```bash
-cd etl_airbnb/script
+cd script
 python main.py
 ```
 
